@@ -1,0 +1,6 @@
+<%= @post.title %>
+<%= @post.user_id %>
+
+
+<p><%= link_to 'User', user_path(@post.user_id) %></p>
+<p><%= link_to 'Post', posts_path %></p>
